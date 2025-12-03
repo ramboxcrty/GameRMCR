@@ -1,0 +1,29 @@
+{
+  "auto_start": false,
+  "minimize_to_tray": true,
+  "logging_enabled": false,
+  "overlay": {
+    "font_family": "Segoe UI",
+    "font_size": 14,
+    "color": "#00FF00",
+    "position": "top-left",
+    "opacity": 0.8,
+    "hotkey": "F12",
+    "show_fps": true,
+    "show_cpu": true,
+    "show_gpu": true,
+    "show_ram": true,
+    "show_temps": true
+  },
+  "optimizer": {
+    "processes_to_terminate": [
+      "OneDrive.exe",
+      "Cortana.exe",
+      "SearchUI.exe"
+    ],
+    "set_high_priority": true,
+    "clear_ram": true,
+    "set_timer_resolution": true,
+    "timer_resolution_ms": 0.5
+  }
+}

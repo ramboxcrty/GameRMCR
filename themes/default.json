@@ -1,0 +1,14 @@
+{
+  "name": "default",
+  "colors": {
+    "fps": "#00FF00",
+    "cpu": "#00BFFF",
+    "gpu": "#FF6B6B",
+    "ram": "#FFD700",
+    "temp": "#FF8C00"
+  },
+  "font_family": "Segoe UI",
+  "font_size": 14,
+  "background_color": "#1e1e1e",
+  "opacity": 0.8
+}

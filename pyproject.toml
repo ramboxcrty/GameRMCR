@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gamepp-clone"
+version = "1.0.0"
+description = "GamePP-like system monitoring and game optimization application"
+requires-python = ">=3.10"
+dependencies = [
+    "PyQt6>=6.5.0",
+    "PyQt6-Charts>=6.5.0",
+    "psutil>=5.9.0",
+    "wmi>=1.5.1",
+    "py-cpuinfo>=9.0.0",
+    "dataclasses-json>=0.6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "hypothesis>=6.82.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"
+
+[tool.coverage.run]
+source = ["src"]
+omit = ["tests/*"]

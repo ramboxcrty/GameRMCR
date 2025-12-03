@@ -1,0 +1,25 @@
+# GamePP Clone Dependencies
+
+# UI Framework
+PyQt6>=6.5.0
+PyQt6-Charts>=6.5.0
+
+# System Monitoring
+psutil>=5.9.0
+wmi>=1.5.1
+py-cpuinfo>=9.0.0
+pynvml>=11.5.0  # NVIDIA GPU monitoring
+GPUtil>=1.4.0  # Alternative GPU monitoring
+pythonnet>=3.0.0  # For OpenHardwareMonitor .NET integration
+pywin32>=306  # Windows API access
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+hypothesis>=6.82.0
+
+# Utilities
+dataclasses-json>=0.6.0
+
+# Authentication
+requests>=2.31.0

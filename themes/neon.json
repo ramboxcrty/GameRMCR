@@ -1,0 +1,14 @@
+{
+  "name": "neon",
+  "colors": {
+    "fps": "#00FF41",
+    "cpu": "#00D9FF",
+    "gpu": "#FF00FF",
+    "ram": "#FFFF00",
+    "temp": "#FF6600"
+  },
+  "font_family": "Arial",
+  "font_size": 15,
+  "background_color": "#000000",
+  "opacity": 0.7
+}

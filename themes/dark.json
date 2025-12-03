@@ -1,0 +1,14 @@
+{
+  "name": "dark",
+  "colors": {
+    "fps": "#4CAF50",
+    "cpu": "#2196F3",
+    "gpu": "#F44336",
+    "ram": "#FFC107",
+    "temp": "#FF9800"
+  },
+  "font_family": "Consolas",
+  "font_size": 13,
+  "background_color": "#0d0d0d",
+  "opacity": 0.9
+}

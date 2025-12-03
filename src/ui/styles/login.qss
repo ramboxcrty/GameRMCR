@@ -1,0 +1,113 @@
+/* Login Page - Dark Theme Stylesheet */
+
+/* Main container */
+#loginPage {
+    background-color: #1a1a2e;
+}
+
+/* Title styling */
+#loginTitle {
+    font-size: 32px;
+    font-weight: bold;
+    color: #00ff88;
+    background-color: transparent;
+}
+
+#loginSubtitle {
+    font-size: 14px;
+    color: #888888;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+
+/* Login container box */
+#loginContainer {
+    background-color: #16213e;
+    border-radius: 20px;
+    padding: 30px;
+    border: 1px solid #0f3460;
+}
+
+/* License title */
+#licenseTitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+/* License info label */
+#licenseInfo {
+    color: #888888;
+    font-size: 13px;
+    background-color: transparent;
+}
+
+/* Input fields */
+#loginContainer QLineEdit {
+    background-color: #1a1a2e;
+    border: 2px solid #0f3460;
+    border-radius: 10px;
+    padding: 12px 15px;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: monospace;
+    letter-spacing: 2px;
+}
+
+#loginContainer QLineEdit:focus {
+    border-color: #00ff88;
+}
+
+#loginContainer QLineEdit::placeholder {
+    color: #555555;
+    letter-spacing: 1px;
+}
+
+/* Primary button */
+#primaryButton {
+    background-color: #00ff88;
+    color: #1a1a2e;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+}
+
+#primaryButton:hover {
+    background-color: #00cc6a;
+}
+
+#primaryButton:pressed {
+    background-color: #00aa55;
+}
+
+#primaryButton:disabled {
+    background-color: #555555;
+    color: #888888;
+}
+
+/* Status label */
+#statusLabel {
+    font-size: 13px;
+    padding: 10px;
+    min-height: 20px;
+    background-color: transparent;
+}
+
+/* Version label */
+#versionLabel {
+    color: #555555;
+    font-size: 11px;
+    background-color: transparent;
+}
+
+/* Frame backgrounds */
+QFrame {
+    background-color: transparent;
+}
+
+#loginContainer QFrame {
+    background-color: transparent;
+}
